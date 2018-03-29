@@ -49,6 +49,10 @@ x.rp.prob <- predict(x.rp, type="prob", newdata=df_test)
 summary(x.rp)
 prp(x.rp, type = 4, extra = 100,cex=0.6)
 ```
+
+
+![alt text](https://github.com/avneet14027/TitanicDataAnalysis/blob/master/decision_tree.png)
+
 #### Number of male vs female people on board
 ```R
 df_gender <- df_train['Sex']
